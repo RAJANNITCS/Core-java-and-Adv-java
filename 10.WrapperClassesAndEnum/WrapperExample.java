@@ -3,21 +3,21 @@
 public class WrapperExample {
     public static void main(String[] args) {
         // --- BOXING ---
-        int primitiveInt = 25;
+        // int primitiveInt = 25;
         // Manually wrapping (Old way, deprecated since Java 9)
-        Integer manualWrapper = Integer.valueOf(primitiveInt); 
+        // Integer manualWrapper = Integer.valueOf(primitiveInt); 
         
         // Autoboxing (Modern way)
-        Integer autoWrapper = 50; 
+        // Integer autoWrapper = 50; 
 
         // --- UNBOXING ---
         // Automatically extracting the primitive value
-        int result = autoWrapper + 10; 
+        // int result = autoWrapper + 10; 
 
         // --- UTILITY METHODS ---
-        String ageString = "30";
+        // String ageString = "30";
         // Converting String to primitive int
-        int age = Integer.parseInt(ageString); 
+        // int age = Integer.parseInt(ageString); 
 
         // Comparing two wrapper objects
         Integer val1 = 127;
